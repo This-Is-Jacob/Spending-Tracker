@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Spending Tracker</title>
+  <meta name="description" content="Spending tracker app">
+  <meta name="author" content="This-Is-Jacob">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand main-nav">
+         <div>$1285.52</div>
+        
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+            <div>$845.32</div>
+        </div>
+    </nav>
+    <div class="active-amount">$332.53</div>
+
+
+    <div class="transactions-list">
+        <div class="transaction income">
+            <div>
+                <span>02/22/20</span>
+                <span>Birthday Gift</span>
+            </div>
+            <div class="amount">$50.00</div>
+        </div>
+
+        <div class="transaction expense">
+            <div>
+                <span>02/22/20</span>
+                <span>Taco Bell</span>
+            </div>
+            <div class="amount">$7.70</div>
+        </div>
+    </div>
+
+
+    <div class="type-toggle">
+        <div class="toggle-item active">Expense</div>
+        <div class="toggle-item">Income</div>
+    </div>
+
+    <div class="category-inputs">
+        <div class="field">
+            <div class="control">
+            <input class="input is-medium" type="text" placeholder="Medium input">
+            </div>
+        </div>
+
+        <div class="field">
+            <div class="control">
+            <input class="input is-medium" type="text" placeholder="Medium input">
+            </div>
+        </div>
+    </div>
+
+    <div class="submit-container">
+        
+        <div class="transaction-amount">$40.00</div>
+
+        <button class="button is-black is-large">
+            <span class="icon has-text-success is-large">
+                <i class="fas fa-check"></i>
+              </span>
+        </button>
+    </div>
+    
+
+  <script src="index.js"></script>
+</body>
+</html>
